@@ -1,0 +1,20 @@
+<head>
+<!-- Load TensorFlow.js. This is required to use coco-ssd model. -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+<!-- Load the coco-ssd model. -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"> </script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Replace this with your image. Make sure CORS settings allow reading the image! -->
+<!-- <img id="img" src="test.png"/> -->
+
+<video autoplay="true" id="videoElement">
+</video>
+<div id="streamprediction">
+<div class="boundingbox"></div>
+</div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+<!-- Place your code in the script tag below. You can also use an external .js file -->

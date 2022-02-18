@@ -1,0 +1,22 @@
+body{
+  background-color:black;
+}
+
+video{
+  width: 50%;
+  height: auto;
+}
+
+.boundingbox{
+  display: none;
+}
+
+#streamprediction{
+  border: 1px solid red;
+  width: 100px;
+  height:100px;
+  position:absolute;
+  top:8px;
+  left:8px;
+  z-index:1;
+}
